@@ -2,11 +2,12 @@ body {
   padding: 0;
   margin: 0;
   font-family: Arial;
+  width: 100%;
 }
 
 .center-align {
   margin: 0 auto;
-  width: 1250px;
+  width: 90%;
 }
 
 .color-white {
@@ -25,6 +26,57 @@ body {
   transition: 1s;
 }
 
+.section-columns-footer {
+  width: 90%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.section-columns-footer div {
+  padding-bottom: 20px;
+  display: inline-block;
+  vertical-align: top;
+  width: 49%;
+}
+.section-columns-footer div h2 {
+  vertical-align: center;
+  font-size: 25px;
+  width: 90%;
+}
+
+.section-columns-verde {
+  width: 90%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.section-columns-verde div {
+  padding-bottom: 40px;
+  display: inline-block;
+  vertical-align: top;
+  width: 49%;
+}
+.section-columns-verde div h2 {
+  vertical-align: center;
+  font-size: 65px;
+  padding: 40px 10px 10px 0px;
+  width: 40%;
+}
+
+.section-columns-negro {
+  padding-top: 50px;
+  padding-bottom: 40px;
+}
+.section-columns-negro div {
+  padding-bottom: 40px;
+  display: inline-block;
+  vertical-align: top;
+  width: 49%;
+}
+.section-columns-negro div h2 {
+  vertical-align: center;
+  font-size: 65px;
+  padding: 0px 80px 10px 0px;
+}
+
 .section-columns {
   padding-top: 50px;
 }
@@ -35,8 +87,9 @@ body {
   width: 49%;
 }
 .section-columns div h2 {
+  vertical-align: center;
   font-size: 65px;
-  padding: 10px 80px 10px 0px;
+  padding: 0px 80px 10px 0px;
 }
 
 .btnwhithe {
@@ -60,8 +113,9 @@ body {
 }
 
 #intro-container {
+  width: 100%;
   background-color: black;
-  padding-top: 100px;
+  padding-top: 70px;
 }
 #intro-container menu {
   padding: 0;
@@ -69,10 +123,19 @@ body {
 }
 #intro-container menu div {
   display: inline-block;
-  vertical-align: top;
+  vertical-align: center;
 }
 #intro-container menu #logo {
+  font-size: 28px;
   width: 15%;
+}
+#intro-container menu #logo a {
+  color: #999;
+  text-decoration: none;
+}
+#intro-container menu #logo a:hover {
+  color: #78B088;
+  transition: 0.5s;
 }
 #intro-container menu #menu-lista {
   width: 80%;
@@ -93,7 +156,33 @@ body {
   text-decoration: none;
 }
 #intro-container menu #menu-lista ul li a:hover {
-  color: white;
+  color: #78B088;
+  text-decoration: underline;
+}
+
+#discografia {
+  background: #78B088;
+  vertical-align: center;
+  margin-bottom: 50px;
+}
+
+#contacto {
+  background: black;
+}
+
+#bio p {
+  font-weight: lighter;
+  font-size: 16px;
+  line-height: 30px;
+  padding-bottom: 10px;
+}
+#bio a {
+  font-weight: bold;
+  color: #78B088;
+  text-decoration: none;
+}
+#bio a:hover {
+  color: #78B088;
   text-decoration: underline;
 }
 
