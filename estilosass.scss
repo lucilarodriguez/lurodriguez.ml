@@ -28,14 +28,15 @@ body{
     padding: 5px;
     margin-top: 5px;
     background-color: white;
-    transition: 1s;
+    transition: 0.5s;
 
 }
 
 .section-columns-footer{
-    width: 90%;
+    width: 99%;
     padding-top: 20px;
     padding-bottom: 20px;
+    text-align: center;
    
     
     div{
@@ -43,15 +44,49 @@ body{
         padding-bottom: 20px;
         display: inline-block;
         vertical-align: top;
-        width: 49%;
+        width: 99%;
 
         h2{
             vertical-align: center;
-            font-size: 25px;
-            width: 90%;
+            font-size: 45px;
+            width: 99%;
         
         }
-
+        
+        #contacto{
+            background-color: black;
+            background-image: url('img/mountain.png');
+            background-position: center bottom;
+            background-repeat: no-repeat;
+            background-size: contain;
+            height: 100px;
+        
+            p{
+                font-weight: lighter;  
+                font-size: 16px;
+                line-height: 30px;
+                padding-bottom: 10px;
+              }
+        
+            .btnwhithe{
+                text-decoration: none;
+                border:solid 1px;
+                padding: 15px 25px;
+                border-radius: 6px;
+                border: solid 1px white;
+                color: white;
+                
+        
+            
+            &:hover{
+                background-color: white;
+                border-color: black;
+                color: black;
+                transition: 1s;
+            }
+        }
+        
+        }
 
 
     }
@@ -60,7 +95,7 @@ body{
 
 
 .section-columns-verde{
-    width: 90%;
+    width: 95%;
     padding-top: 50px;
     padding-bottom: 50px;
    
@@ -73,10 +108,10 @@ body{
         width: 49%;
 
         h2{
-            vertical-align: center;
+            align-items: top;
             font-size: 65px;
-            padding: 40px 10px 10px 0px;
-            width: 40%;
+            width: 100%;
+            padding-top: 50px ;
         
         }
 
@@ -111,7 +146,8 @@ body{
 }
 
 .section-columns{
-    padding-top: 50px;
+    padding-top: 90px;
+    height: 500px;
     
     
     div{
@@ -166,7 +202,12 @@ body{
         background-color: black;
         padding-top: 70px;
             menu{
-                padding: 0;
+                position: fixed;
+                background: black;
+                left: 0;
+                top: 0;
+                right: 0;
+                padding: 0px;
                 margin: 0;
 
                 div{
@@ -174,6 +215,10 @@ body{
                     vertical-align: center;
                 }
                     #logo{
+                        margin-left: 30px;
+                        padding: 10px;
+                        font-size: 20px;
+                        width: 30%;
                         
                         a{
                             color: #999;
@@ -188,9 +233,10 @@ body{
                     #menu-lista{
                         width: 59%;
                         text-align: right;
+                        padding: 10px;
                         ul{
                             margin: 0;
-                            padding: 0;
+                            padding: 10px;
                             li{
                                 display: inline-block;
                                 padding: 0;
@@ -218,11 +264,45 @@ body{
     margin-bottom: 50px;
 }
 
+
+
 #contacto{
-    background: black;
+    background-color: black;
+    background-image: url('img/mountain.png');
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 400px;
+
+    p{
+        font-weight: lighter;  
+        font-size: 16px;
+        line-height: 30px;
+        padding-bottom: 10px;
+      }
+
+    .btnwhithe{
+        text-decoration: none;
+        border:solid 1px;
+        padding: 15px 25px;
+        border-radius: 6px;
+        border: solid 1px white;
+        color: white;
+        margin: 9px;
+        
+
+    
+    &:hover{
+        background-color: white;
+        border-color: black;
+        color: black;
+        transition: 1s;
+    }
 }
 
-#bio{
+}
+
+#bio, #recitales {
     p{
         font-weight: lighter;  
         font-size: 16px;
